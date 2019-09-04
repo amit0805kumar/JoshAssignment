@@ -473,6 +473,8 @@ section {
             transform-origin: center; }
     .popup__container .heading__popup {
       background: #fff; }
+    .popup__container .imgBox {
+      margin-top: 4rem; }
     .popup__container .close {
       position: absolute;
       background: #fff;

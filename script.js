@@ -13,7 +13,7 @@ $(function () {
     var videoSlider = $('.videoSlider');
 
     var videoGallery = $('.videoGallery');
-    var popup__image = $('.popup__image');
+   
 
     //SHowing Popup
     imgGallery.click(function () {
