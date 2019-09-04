@@ -61,6 +61,11 @@
             a {
                 color: #fff;
                 margin: 0 1.5rem;
+                transition: all .3s;
+
+                &:hover {
+                    color: $primary__color
+                }
             }
         }
     }
@@ -112,33 +117,5 @@
 
     }
 
-    // .slider {
-    //     position: relative;
-    //     width: 100%;
-    //     height: 30rem;
 
-    //     .card {
-    //         width: 100%;
-    //         height: 100%;
-    //         display: flex;
-
-    //         &__image {
-    //             background: yellow;
-    //             width: 60%;
-    //             overflow: hidden;
-    //         }
-
-    //         &__content {
-    //             background: green;
-    //             width: 40%;
-    //         }
-    //     }
-
-    //     .slider__btns {
-    //         position: absolute;
-    //         bottom: 2rem;
-    //         right: 2rem;
-    //         display: inherit;
-    //     }
-    // }
 }

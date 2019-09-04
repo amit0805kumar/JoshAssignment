@@ -28,65 +28,61 @@
                 </i>
             </div>
 
-            <section class="lazy slider imgSlider" data-sizes="50vw">
-                <div>
-                    <div class="heading__popup">Image 1</div>
-                    <div class="imgBox" title="Title"><img src="./images/g1.jpg" alt=""></div>
+            <div class="popup__main">
+                <div class="prev noselect"><i class="material-icons">
+                        arrow_back
+                    </i></div>
+                <div class="next noselect"><i class="material-icons">
+                        arrow_forward
+                    </i></div>
+                <div class="cont imgSlider">
+                    <div class="imgCont">
 
+                        <div class="sliderImg" id="i0">
+                            <div class="heading" id="popupHeading">Navbar UI</div>
+                            <img data="0" src="./images/g1.jpg" alt="">
+                        </div>
+                        <div class="sliderImg" id="i1">
+                            <div class="heading" id="popupHeading">Transitions Effect</div>
+                            <img data="1" src="./images/g2.jpg" alt="">
+                        </div>
+                        <div class="sliderImg" id="i2">
+                            <div class="heading" id="popupHeading">Mobile UI</div>
+                            <img data="2" src="./images/g3.jpg" alt="">
+                        </div>
+                        <div class="sliderImg" id="i3">
+                            <div class="heading" id="popupHeading">Smooth Transition</div>
+                            <img data="3" src="./images/g4.jpg" alt="">
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                    <div class="heading__popup">Image 2</div>
+                <div class="cont videoSlider hideSlider">
 
-                    <div class="imgBox" title="Title"><img src="./images/g2.jpg" alt=""></div>
-
+                    <div class="imgCont">
+                        <div class="sliderImg" id="v0">
+                            <div class="heading" id="popupHeading2">Awesome UI Interaction</div>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/F4kJXbaunUg">
+                            </iframe>
+                        </div>
+                        <div class="sliderImg" id="v1">
+                            <div class="heading" id="popupHeading2">Creating SVG</div>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/OjIxscGV-Qg">
+                            </iframe>
+                        </div>
+                        <div class="sliderImg" id="v2">
+                            <div class="heading" id="popupHeading2">Learn Sass</div>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/roywYSEPSvc">
+                            </iframe>
+                        </div>
+                        <div class="sliderImg" id="v3">
+                            <div class="heading" id="popupHeading2">UI Design Course</div>
+                            <iframe width=" 420" height="315" src="https://www.youtube.com/embed/KRDKQnGUsTg">
+                            </iframe>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <div class="heading__popup">Image 3</div>
-
-                    <div class="imgBox" title="Title"><img src="./images/g3.jpg" alt=""></div>
-                </div>
-                <div>
-                    <div class="heading__popup">Image 4</div>
-
-                    <div class="imgBox" title="Title"><img src="./images/g4.jpg" alt=""></div>
-
-                </div>
-
-            </section>
-
-            <section class="lazy slider videoSlider" data-sizes="50vw">
-                <div>
-                    <div class="heading__popup">Video 1</div>
-                    <div class="imgBox" title="Title"><iframe width="100%" height="300"
-                            src="https://www.youtube.com/embed/F4kJXbaunUg">
-                        </iframe></div>
-
-                </div>
-                <div>
-                    <div class="heading__popup">Video 2</div>
-
-                    <div class="imgBox" title="Title"><iframe width="100%" height="300"
-                            src="https://www.youtube.com/embed/OjIxscGV-Qg">
-                        </iframe></div>
-
-                </div>
-                <div>
-                    <div class="heading__popup">Video 3</div>
-
-                    <div class="imgBox" title="Title"><iframe width="100%" height="300"
-                            src="https://www.youtube.com/embed/roywYSEPSvc">
-                        </iframe></div>
-                </div>
-                <div>
-                    <div class="heading__popup">Video 4</div>
-
-                    <div class="imgBox" title="Title"><iframe width="100%" height="300"
-                            src="https://www.youtube.com/embed/KRDKQnGUsTg">
-                        </iframe></div>
-
-                </div>
-
-            </section>
+            </div>
         </div>
     </div>
     <nav class="nav">
@@ -300,16 +296,16 @@
                 <div class="heading__primary">Media resources - photos</div>
                 <div class="gallery">
                     <div class="row">
-                        <div class="imgBox imgGallery" title="Title" data-serial="1"><img src="./images/gallery1.jpg"
-                                alt=""></div>
-                        <div class="imgBox imgGallery" title="Title" data-serial="2"><img src="./images/gallery2.jpg"
-                                alt=""></div>
+                        <div class="imgBox imgGallery" title="Mobile UI" data-serial="0"><img
+                                src="./images/gallery1.jpg" alt=""></div>
+                        <div class="imgBox imgGallery" title="Navbar Effect" data-serial="1"><img
+                                src="./images/gallery2.jpg" alt=""></div>
                     </div>
                     <div class="row">
-                        <div class="imgBox imgGallery" title="Title" data-serial="3"><img src="./images/gallery3.jpg"
-                                alt=""></div>
-                        <div class="imgBox imgGallery" title="Title" data-serial="4"><img src="./images/gallery4.jpg"
-                                alt=""></div>
+                        <div class="imgBox imgGallery" title="Transitions" data-serial="2"><img
+                                src="./images/gallery3.jpg" alt=""></div>
+                        <div class="imgBox imgGallery" title="Smooth animatons" data-serial="3"><img
+                                src="./images/gallery4.jpg" alt=""></div>
                     </div>
                 </div>
                 <div class="text">
@@ -324,12 +320,16 @@
                 <div class="heading__primary">Media resources - videos</div>
                 <div class="gallery">
                     <div class="row">
-                        <div class="imgBox videoGallery" title="Title"><img src="./images/v1.png" alt=""></div>
-                        <div class="imgBox videoGallery" title="Title"><img src="./images/v2.png" alt=""></div>
+                        <div class="imgBox videoGallery" title="Awesome UI Interaction" data-serial="0"><img
+                                src="./images/v1.png" alt=""></div>
+                        <div class="imgBox videoGallery" title="Creative SVG" data-serial="1"><img src="./images/v2.png"
+                                alt=""></div>
                     </div>
                     <div class="row">
-                        <div class="imgBox videoGallery" title="Title"><img src="./images/v3.png" alt=""></div>
-                        <div class="imgBox videoGallery" title="Title"><img src="./images/v4.png" alt=""></div>
+                        <div class="imgBox videoGallery" title="Learn Sass" data-serial="2"><img src="./images/v3.png"
+                                alt=""></div>
+                        <div class="imgBox videoGallery" title="UI Design Course" data-serial="3"><img
+                                src="./images/v4.png" alt=""></div>
                     </div>
                 </div>
                 <div class="text">
@@ -365,10 +365,7 @@
                 slidesToShow: 1,
                 slidesToScroll: 1
             });
-            $(".lazy").slick({
-                lazyLoad: 'ondemand', // ondemand progressive anticipated
-                infinite: true,
-            });
+
         })
     </script>
 </body>
